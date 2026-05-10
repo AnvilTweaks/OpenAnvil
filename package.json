@@ -1,0 +1,16 @@
+{
+  "name": "feather-launcher-patcher",
+  "version": "1.0.0",
+  "description": "Local CLI patcher for an installed Feather Launcher app bundle.",
+  "private": true,
+  "license": "UNLICENSED",
+  "bin": {
+    "feather-patcher": "./patch-feather.js"
+  },
+  "scripts": {
+    "check": "node --check patch-feather.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
